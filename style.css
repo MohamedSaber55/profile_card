@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  max-width: 350px;
+  width: 350px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -311,7 +311,6 @@ body {
 
 .card-item:after {
   content: attr(data-year);
-  width: 10px;
   position: absolute;
   top: 0;
   left: 37px;
